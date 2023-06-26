@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Lucho Bonell" content="Trabajo final bootstrap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <link rel="icono" type="imahen/png" href="Imagenes/icons-mate-96.png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Yerba Mate Eldorado</title>
+</head>
+
+<body>
+  <!--historia-->
+  <header>
+    <div class="container-fluid" id="historia">
+      <div class="contenedor">
+        <h1 class="titulo">Historia</h1>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Nobis, quam dignissimos omnis aut ex adipisci blanditiis dicta
+          atque ipsa asperiores corporis tenetur pariatur exercitationem
+          accusantium ad ullam inventore. Ut, perspiciatis!</p>
+      </div>
+
+
+
+      <!-- -Barra de navegacion --->
+      <section class="barranav" id="barra">
+        <div class="container-fluid">
+          <nav class="navbar fixed-top navbar-expand-md">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <img class="icono" src="Imagenes/icons8-mate-96.png" width="50" alt="icono">
+              <div class="navbar-brand">Yerba Mate <span style="color: gold;">ELDORADO</span>
+                <a class="navbar-brand" href="#"></a>
+
+              </div>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#historia">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produccion">Produccion</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Mas Info</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#productos">Productos</a></li>
+                      <li><a class="dropdown-item" href="#formulario">Formulario</a></li>
+                      <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+      </section>
+
+
+    </div>
+  </header>
+  <!--Produccion-->
+  <section class="productos d-flex flex-column" id="produccion">
+    <div class="titulo-produccion">
+      <h1 class="Produccion">Produccion</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Imagenes/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Productos-->
+  <div class="titulo-productos">
+    <h2 class="Productos">Productos</h2>
+  </div>
+  <section class="container productos d-flex"id="productos">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="container-fluid productos1">
+          <div id="carousel" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagenes/8.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/7.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">  
+        <div class="container-fluid productos2">
+           <div id="carousel1" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="Imagenes/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="Imagenes/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="Imagenes/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+             </div>  
+          </div> 
+       </div>
+                
+         
+      </section>
+
+      <!--video---->
+      <section>
+        <div class="titulo-video">
+          <h2 class="video">Produccion Yerba Mate</h2>
+        </div>
+        <div class="container">
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gNQZeosAxvQ" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+  </section>
+
+  <!--formulario--->
+
+  <section>
+    <form class="section d-flex flex-column align-items-center justify-content-center">
+      <h2 class="formulario-titulo">Formulario</h2>
+      <div class="container-fluid formulario" id="formulario">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Direccion de Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Constraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-warning">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <!--footer/contacto-->
+
+  <section>
+    <footer class="section d-flex flex-column align-items-center justify-content-center" id="contacto">
+      <img class="footer-logo" src="Imagenes/icons8-mate-96.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">LA MEJOR HOJA, LA MEJOR TIERRA HACEN EL MEJOR MATE.<br>Compatir un mate es dar
+        de ti.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://youtube.com/yerbamateledorado" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-youtube"></i>
+          <a href="https://instagram.com/yerbamateeldorado" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/yerbamateledorado" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:yerbamate@eldorado.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+      </div>
+      <div class="derechos-de-autor">Lucho Bonell (2023) &#169;</div>
+    </footer>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
